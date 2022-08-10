@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+issueTrackerURL = "https://github.com/spyeic/tweakeroo-forge/issues"
+license = "LGPLv3"
+
+[[mods]]
+modId = "tweakeroo"
+version = "${mod_version}"
+displayName = "Tweakeroo"
+authors = "masa, spyeic"
+description = "Adds a bunch of configurable client-side tweaks"
+logoFile = "icon.png"
+
+[[dependencies.tweakeroo]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tweakeroo]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tweakeroo]]
+modId = "malilib"
+mandatory = true
+versionRange = "[0.12.1,)"
+ordering = "NONE"
+side = "CLIENT"
