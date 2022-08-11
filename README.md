@@ -1,3 +1,14 @@
+Tweakeroo-Forge
+==============
+Tweakeroo forge is a mod that allows you use [tweakroo](https://github.com/maruohon/tweakeroo) ([curseforge page](http://minecraft.curseforge.com/projects/tweakeroo))
+in forge.
+
+For those people who want to use tweakeroo features (such as freecam) in forge, you can use this mod.
+
+### Requirements
+* [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) 40.1.0 or higher
+* [MaLiLib Forge](https://github.com/spyeic/malilib-forge/releases) 0.12.1 or higher
+
 Tweakeroo
 ==============
 Tweakeroo is a client-side-only Minecraft mod using LiteLoader.
